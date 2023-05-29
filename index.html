@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador del clima</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <section class="weather-content">
+        <h1>Buscador de clima</h1>
+        <div class="result">
+            <p>Agregar ciudad  y pais</p>
+        </div>
+        <form action="" method="POST" class="get-weather">
+            <input type="text" name="city" id="city" placeholder="Escribe tu ciudad...">
+            </select>
+            <select name="" id="country">
+                <option disabled selected value="">Seleccionar pais</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="ES">España</option>
+                <option value="US">Estados Unidos</option>
+                <option value="MX">México</option>
+                <option value="PE">Perú</option>
+            </select>
+            <input type="submit" name="" id="" value="Get Weather">
+        </form>
+        <div class="weather-info-container">
+            <div class="weather_card">
+                <i class="fa-solid fa-temperature-full"></i>
+                <p></p>
+                <p class="weather__realfeel">18ºC</p>
+            </div>
+            <div class="weather_card">
+                <i class="fa-solid fa-droplet"></i>
+                <p></p>
+                <p class="weather__humidity">50%</p>
+            </div>
+            <div class="weather_card">
+                <i class="fa-solid fa-wind"></i>
+                <p></p>
+                <p class="weather__wind">32Km/h</p>
+            </div>
+            <div class="weather_card">
+                <i class="fa-solid fa-gauge-high"></i>
+                <p></p>
+                <p class="weather__pressure">32C</p>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/a692e1c39f.js" crossorigin="anonymous"></script>
+</body>
+</html>
